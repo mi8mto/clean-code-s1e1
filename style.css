@@ -142,11 +142,11 @@ button:hover {
   display: none;
 }
 
-.list-item.editMode .list-item__input-task {
+.list-item.edit-mode .list-item__input-task {
   display: inline-block;
   width: 224px;
 }
 
-.list-item.editMode .list-item__label {
+.list-item.edit-mode .list-item__label {
   display: none;
 }
