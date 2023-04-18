@@ -52,13 +52,22 @@ button {
 button {
   background: none;
   border: 0px;
+}
+.task-row-wrapper__button,
+.list-item__button-delete,
+.list-item__button-edit {  
   color: #888;
   font-size: 15px;
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-button:hover {
+.list-item__button-delete,
+.list-item__button-edit:hover {
+  color: #3a3a3a;
+}
+
+.task-row-wrapper__button:hover {
   color: #3a3a3a;
 }
 /* Heading */
